@@ -1,0 +1,85 @@
+*
+{
+    font-family: 'Dancing Script', cursive;
+   
+}
+
+
+
+header
+{
+    box-sizing: border-box;
+    width: 70%;
+    height: 200px;
+    float: left;
+    position: fixed;
+    z-index: 200;
+    
+}
+
+#fashionTitle
+{
+    width: 100%;
+    height: 150px;
+    color: green;
+    padding-left: 50px;
+    font-size: 70px;
+    float: left;
+    background-color:rgb(241, 238, 238,0.3);
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-left:20px;
+      
+}
+main
+{
+    width: 80%;
+    height: 1000px;
+    float: left;
+    position: relative;
+    background-image: url("images/img-fashion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+.question
+{
+    width: 100%;
+    height: 1000px;
+    position:absolute;
+    top: 250px;
+    font-size: 20px;
+    color: green;
+    
+    
+    
+}
+
+.questionTemplate {
+    box-sizing: border-box;
+    width: 90%;
+    height: 50px;
+    background-color: rgba(185, 250, 142, 0.582);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 10px 40px;
+}
+
+aside
+{
+    width: 20%;
+    height: 1000px;
+    float: right;
+    background-image: linear-gradient(180deg, rgba(101, 202, 101, 1.5), yellow);
+}
+footer
+{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background-color: green;
+}
